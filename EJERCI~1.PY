@@ -1,3 +1,5 @@
+# Realizado por Kelly Triviño y Ubeimar Yepes 
+
 class TicketMachine:
     def __init__(self):
         self.destinations = ["Destino A", "Destino B", "Destino C"]
@@ -27,6 +29,7 @@ class TicketMachine:
         pin = input("Ingrese su PIN: ")
         # Aquí se verificaría la validez de la tarjeta y el PIN
         print(f"Se ha realizado un pago de ${amount} a través de la tarjeta {card_number}.")
+
 
     def issue_ticket(self, destination, amount):
         print(f"Billete para {destination} emitido.")
